@@ -15,7 +15,7 @@ Discord Server: <https://discord.gg/S6TUQWt>
 
 ### Missiles
 
-* Added the ability to have per player custom (this master build is broken when it comes to costums) missiles up to 3x3x17 in size
+* Added the ability to have per player custom missiles up to 3x3x17 in size
 * Added indicator of the next three upcoming missiles
 * Added system to prevent getting the same item in a row
 * Added progress bar to show when players will get the next missile
