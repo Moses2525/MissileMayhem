@@ -24,15 +24,23 @@ execute if score Map m.Variables matches 2 run fill -2 0 -25 2 100 25 white_stai
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 3 run fill ^-25 ^ ^23 ^25 ^ ^27 white_stained_glass
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 3 run fill ^-25 ^-20 ^23 ^25 ^-20 ^30 white_stained_glass
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 3 run fill ^-25 ^-40 ^23 ^25 ^-40 ^32 white_stained_glass
-
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^11 ^8 ^12 ^17 ^8 ^18 white_stained_glass
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^15 ^1 ^14 ^15 ^8 ^16 white_stained_glass
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^13 ^1 ^14 ^13 ^8 ^16 white_stained_glass
-execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^14 ^1 ^15 ^14 ^8 ^15 ladder[facing= west ]
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^14 ^1 ^15 ^14 ^8 ^15 water
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^13 ^1 ^15 ^13 ^8 ^15 structure_void
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^15 ^1 ^15 ^15 ^8 ^15 structure_void
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^14 ^1 ^14 ^14 ^8 ^14 structure_void
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^14 ^1 ^16 ^14 ^8 ^16 structure_void
+
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-11 ^8 ^12 ^-17 ^8 ^18 white_stained_glass
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-15 ^1 ^14 ^-15 ^8 ^16 white_stained_glass
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-13 ^1 ^14 ^-13 ^8 ^16 white_stained_glass
-execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-14 ^1 ^15 ^-14 ^8 ^15 ladder[facing= west ]
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-14 ^1 ^15 ^-14 ^8 ^15 water
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-13 ^1 ^15 ^-13 ^8 ^15 structure_void
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-15 ^1 ^15 ^-15 ^8 ^15 structure_void
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-14 ^1 ^14 ^-14 ^8 ^14 structure_void
+execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 6 run fill ^-14 ^1 ^16 ^-14 ^8 ^16 structure_void
 
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 4 run fill ^-15 ^ ^22 ^15 ^50 ^17 minecraft:air
 execute at @e[type=marker,tag=Base,x=0] if score Map m.Variables matches 4 run fill ^-5 ^ ^17 ^5 ^50 ^11 minecraft:air
